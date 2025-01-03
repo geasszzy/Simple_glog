@@ -17,9 +17,9 @@ c-style：
 
   LOG_WARNING_C("This is c-style WARNING LOG output");
   
-  LOG_ERROR_C("This is c-style INFO ERROR output");
+  LOG_ERROR_C("This is c-style ERROR LOG output");
   
-  LOG_FATAL_C("This is c-style INFO FATAL output");
+  LOG_FATAL_C("This is c-style INFO FATAL LOG output");
   
 cpp-style：
 

@@ -11,25 +11,25 @@ How to use it：
   Logger& logger = Logger::getinstance("/XXX/XXX"); // This means that a folder is created in the specified directory (/XXX/XXX) to store the log files
 
 5. Outputs log messages in the following format:
-c style：
+c-style：
 
-  LOG_INFO_C("This is c style INFO LOG output");
+  LOG_INFO_C("This is c-style INFO LOG output");
 
-  LOG_WARNING_C("This is c style WARNING LOG output");
+  LOG_WARNING_C("This is c-style WARNING LOG output");
   
-  LOG_ERROR_C("This is c style INFO ERROR output");
+  LOG_ERROR_C("This is c-style INFO ERROR output");
   
-  LOG_FATAL_C("This is c style INFO FATAL output");
+  LOG_FATAL_C("This is c-style INFO FATAL output");
   
-cpp style：
+cpp-style：
 
-  LOG_INFO_CPP << "This is cpp style INFO LOG output";
+  LOG_INFO_CPP << "This is cpp-style INFO LOG output";
   
-  LOG_WARNING_CPP << "This is cpp style WARNING LOG output";
+  LOG_WARNING_CPP << "This is cpp-style WARNING LOG output";
   
-  LOG_ERROR_CPP << "This is cpp style ERROR LOG output";
+  LOG_ERROR_CPP << "This is cpp-style ERROR LOG output";
   
-  LOG_FATAL_CPP << "This is cpp style FATAL LOG output";
+  LOG_FATAL_CPP << "This is cpp-style FATAL LOG output";
   
 6. Run your project and view the log file in the folder
 

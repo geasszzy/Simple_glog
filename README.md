@@ -19,7 +19,7 @@ c-style：
   
   LOG_ERROR_C("This is c-style ERROR LOG output");
   
-  LOG_FATAL_C("This is c-style INFO FATAL LOG output");
+  LOG_FATAL_C("This is c-style FATAL LOG output");
   
 cpp-style：
 

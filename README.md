@@ -1,5 +1,5 @@
 # Simple_glog
-This is a simple implementation of glog based on C++11 with linux and windows support.
+This is a simple implementation of glog based on C++11, which is compatible with c-style and cpp-style logging output and supports cross-platform use.
 
 How to use it：
 1. check your computer support c++11 and later.

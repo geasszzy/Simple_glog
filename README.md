@@ -9,7 +9,7 @@ How to use it：
   Logger& logger = Logger::getinstance("/XXX/XXX"); // This means that a folder is created in the specified directory (/XXX/XXX) to store the log files
 4. Outputs log messages in the following format:
 c style：
-  LOG_INFO_C("This is c style INFO LOG output");
+  LOG_INFO_C("This is c style INFO LOG output");/n
   LOG_WARNING_C("This is c style WARNING LOG output");
   LOG_ERROR_C("This is c style INFO ERROR output");
   LOG_FATAL_C("This is c style INFO FATAL output");
